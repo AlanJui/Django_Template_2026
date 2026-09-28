@@ -1,0 +1,11 @@
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+python_executable = ".venv/Scripts/python.exe"
+
+[tool.django-stubs]
+django_settings_module = "project001.settings"
+
+[tool.pydocstyle]
+inherit = false
+ignore = ["D100", "D101", "D102", "D103", "D203", "D405"]
+match = "(?!migrations).*\\.py"
