@@ -1,0 +1,13 @@
+---
+description: 對話中的表格先給人讀，再附可複製的 markdown
+alwaysApply: true
+---
+
+# 表格呈現
+
+回覆裡的比較、規格、多欄資料，用兩段呈現，順序固定。
+
+1. 先輸出一般 markdown 表格，讓對話裡看到的是排好的表格。
+2. 緊接著放同一個表格，包在 `markdown` 程式碼區塊裡。使用者點該區塊的複製鈕，剪貼簿裡就是可貼進 VS Code、nvim、Notepad 的 markdown table。
+
+不要只給程式碼區塊。不要只給渲染表格。不要改用 HTML 表格。
